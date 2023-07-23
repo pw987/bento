@@ -22,7 +22,10 @@
       "ssh_username": "vagrant",
       "type": "virtualbox-iso",
       "virtualbox_version_file": ".vbox_version",
-      "vm_name": "{{ user `template` }}"
+      "vm_name": "{{ user `template` }}",
+      "vboxmanage": [
+        ["modifyvm", "{{.Name}}", "--nat-localhostreachable1", "on"]
+       ]
     },
     {
       "boot_command": "{{ user `boot_command` }}",
@@ -168,7 +171,7 @@
   ],
   "variables": {
     "box_basename": "rockylinux-9.1",
-    "build_directory": "../../builds",
+    "build_directory": "~/builds",
     "build_timestamp": "{{isotime \"202207180452\"}}",
     "cpus": "2",
     "disk_size": "65536",

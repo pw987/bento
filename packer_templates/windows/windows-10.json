@@ -225,7 +225,7 @@
     }
   ],
   "variables": {
-    "build_directory": "../../builds",
+    "build_directory": "~/builds",
     "cpus": "2",
     "disk_size": "40000",
     "floppy_dir": "{{template_dir}}/answer_files",

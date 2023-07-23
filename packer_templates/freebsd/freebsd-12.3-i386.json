@@ -186,7 +186,7 @@
   ],
   "variables": {
     "box_basename": "freebsd-12.3-i386",
-    "build_directory": "../../builds",
+    "build_directory": "~/builds",
     "build_timestamp": "{{isotime \"20060102150405\"}}",
     "cpus": "2",
     "disk_size": "40960",

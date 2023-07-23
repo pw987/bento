@@ -128,7 +128,7 @@
   ],
   "variables": {
     "autounattend": "Autounattend.xml",
-    "build_directory": "../../builds",
+    "build_directory": "~/builds",
     "build_version": "1",
     "cpus": "2",
     "disk_size": "61440",

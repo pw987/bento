@@ -66,7 +66,7 @@
     ],
     "variables": {
         "box_basename": "ubuntu-20.04-arm64",
-        "build_directory": "../../builds",
+        "build_directory": "~/builds",
         "build_timestamp": "{{isotime \"20060102150405\"}}",
         "cpus": "2",
         "disk_size": "65536",

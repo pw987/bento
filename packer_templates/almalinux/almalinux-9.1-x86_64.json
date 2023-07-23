@@ -167,7 +167,7 @@
   ],
   "variables": {
     "box_basename": "almalinux-9.1",
-    "build_directory": "../../builds",
+    "build_directory": "~/builds",
     "build_timestamp": "{{isotime \"202205251531\"}}",
     "cpus": "2",
     "disk_size": "65536",
